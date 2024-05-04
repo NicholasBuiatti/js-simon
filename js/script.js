@@ -17,5 +17,10 @@ for (let i = 0; i < boxNumber.length; i++) {
     //aggiungo la classe col al div creato
     box.classList.add('col')
     printZone.append(box)
-    // .innerHTML += `<h2> ${element} </h2>`
 }
+
+let sec = 3;
+
+setTimeout(function() {
+    printZone.classList.add('d-none')
+}, sec * 1000);
